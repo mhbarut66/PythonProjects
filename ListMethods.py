@@ -12,7 +12,7 @@ val = numbers[:6:-1] # ilk indexten 6. indexe kadar tersten alır
 numbers[4] = 41
 
 numbers.append(49) # en sona belirtilen elemanı ekler
-numbers.insert(3, 78) # belirtilen indexe belirtilen rakamı ekler.
+numbers.insert(3, 78) # belirtilen indexe belirtilen elemanı ekler.
 print(numbers)
 
 numbers.pop(2) # belirtilen yerdeki elemanı siler
@@ -31,3 +31,63 @@ numbers.clear() # tüm elemanları siler.
 print(numbers)
 
 
+# BTK Akademi Python Dersleri 3.15_Uygulama Pythonda Liste Metodları
+
+names = ['Ali', 'Yagmur' , 'Hakan', 'Deniz']
+Degisennames = ['Ali', 'Yagmur' , 'Hakan', 'Deniz']
+years = [1998, 2000, 1998, 1987]
+
+# 1- "Cenk" ismini listenin sonuna ekleyiniz.
+Degisennames = names
+Degisennames.append('Cenk')
+
+# 2- "Sena"' degerini listenin basina ekleyiniz.
+Degisennames = names
+
+Degisennames.insert(0,'Sena')
+
+# 3- "Deniz" ismini listeden siliniz.
+Degisennames = names
+
+Degisennames.pop(3)
+
+# 4- "Deniz" isminin indeksi nedir ?
+print(names.index('Deniz'))
+
+# 5- "Ali" listenin bir elemani midir ?
+result = 'Ali' in names
+print(result)
+
+# 6- Liste elemanlarina ters çevirin.
+names.reverse()
+
+# 7- Liste elemanlarin alfabetik olarak siralayinaz.
+names.sort()
+
+# 8- years listesini rakamsal büyüklüge göre siralayiniz.
+years.sort()
+
+# 9- str = "Chevrolet, Dacia" karakter dizisini listeye ceviriniz.
+str = "Chevrolet, Dacia"
+str.split(',') # değişkenimiz belirtilen karakter ile ayrılarak bir diziye dönüşür
+
+# 10- years dizisinin en büyük ve en küçük elemani nedir ?
+min = min(years)
+max = max(years)
+
+# 11- years dizisinde kaç tane 1998 degeri vardir?
+result = years.count(1998)
+
+# 12- years dizisinin tüm elemanlarina siliniz.
+years.clear()
+
+# 13- Kullanicidan alacaginiz 3 tane marka bilgisini bir listede saklayiniz.
+markalar = []
+marka = input("marka: ")
+markalar.append(marka)
+marka = input("marka: ")
+markalar.append(marka)
+marka = input("marka: ")
+markalar.append(marka)
+print(markalar)
+print(names)
