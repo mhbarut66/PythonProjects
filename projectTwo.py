@@ -44,3 +44,5 @@ print("Halit Barut".replace("Halit", "Mehmet"))
 # 11- "Mehmet Halit Barut" karakter dizisini boşluklardan ayıklayınız.
 
 print("Mehmet Halit Barut".split(" "))
+
+# bu yorum satırı bir denemedir.
