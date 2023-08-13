@@ -60,7 +60,7 @@ girilensifre = input('parola: ')
 isemail = email == girilenmail
 issifre = parola == girilensifre
 
-print(f'Email bilgisi dogrumu: {isemail} ve Parola dogru mu: {issifre1}')
+print(f'Email bilgisi dogrumu: {isemail} ve Parola dogru mu: {issifre}')
 
 
 
