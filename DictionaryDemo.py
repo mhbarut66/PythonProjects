@@ -88,3 +88,37 @@ ogrenci = ogrenciler
 print(ogrenci)
 
 
+# BTK Akademi Python Dersleri 3.19_Pythonda Sets
+
+fruits = {'orange', 'apple', 'banana'}
+
+# print(fruits[0]) -> kod hata verecektir setler çünkü indexlenemez.
+
+for x in fruits:
+    print(x)
+
+
+fruits.add('cherry')
+
+fruits.update(['mango','grape'])
+
+# set tekrarlayan elemanları sadece 1 kez alır.
+
+myList = [1,2,2,2,3,2,4,5,3,3,1,4]
+
+print(set(myList)) # çıktıda birden fazla aynı sayıdan olmaz.
+
+
+
+fruits.remove('mango')
+fruits.discard('apple')
+# ikisi de belirtilen elemanı setten siler.
+
+print(fruits)
+
+fruits.pop() # setlerde ilk elemanı siler.
+
+print(fruits)
+
+# fruits.clear() tüm elemanları siler
+
