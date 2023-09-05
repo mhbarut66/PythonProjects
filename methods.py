@@ -1,4 +1,4 @@
-# BTK Akademi Python Dersi 7.1 Fonksiyon Kullanımı
+# BTK Akademi Python Dersi 7.1 Pythonda Metotlar
 
 # metod
 
